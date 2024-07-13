@@ -1,6 +1,6 @@
 import CloseIcon from "@mui/icons-material/Close";
 import { useNavigate, Link } from "react-router-dom";
-import about_img from "../assets/Tushar.jpg";
+import about_img from "../assets/abhi.jpg";
 import DownloadIcon from '@mui/icons-material/Download';
 
 const About = () => {
@@ -29,26 +29,22 @@ const About = () => {
         <div className="lg:w-3/4 max-md:w-full flex m-auto sm:max-lg:flex-col sm:max-lg:text-center sm:max-lg:p-auto max-md:flex-col max-md:text-center max-md:p-auto">
           <img
             src={about_img}
-            className="w-1/3 max-md:mb-7 max-md:max-lg:w-1/4 max-md:border-2 max-md:border-[#009e66] sm:max-lg:rounded-full sm:max-lg:m-auto sm:max-lg:mt-16 max-md:w-1/3 max-md:border-1 max-md:rounded-full max-md:m-auto"
-            alt="Tushar Sahani"
+            className="border-4 border-green-700 rounded-full w-50 h-50"
+            alt="Abhishe Patil"
           />
 
           <div className="ml-14 max-md:ml-0">
             <div className="p-5 ">
               <h1 className="text-[#009e66] text-2xl p-2 -mt-5 sm:max-lg:mr-10">
-                Who am i?
+                What I Do?
               </h1>
               <h1 className="text-3xl font-bold p-3 max-md:text-xl">
-                I'm Tushar Sahani, Full Stack Developer and Java Programmer
+                I'm Abhishek Patil, Data Engineer and Full Stack Developer
               </h1>
               <p className="text-[#9f9f9f] p-2 text-sm">
-                I am a B.Tech undergraduate student at KIET Group of
-                Institutions, pursuing Computer Science. I have a passion for
-                developing solutions and am a keen learner. I enjoy working in
-                Java and collaborating with Technical Societies. As a web developer, I love creating human-centric
-                websites using ReactJs and NextJs, and infusing functionality
-                using Django. My goal is to create value and impact to bring
-                about positive change.
+                I bring over 2.5 years of experience as a Data Engineer at Cognizant Technology Solutions, where I specialized in building and maintaining robust data solutions.
+                 Additionally, I have 1.5 years of experience in web development as a freelancer, creating engaging and functional websites.
+                 I hold a degree in Computer Science from Pune University, where I developed a strong foundation in various technology domains and critical problem-solving skills.
               </p>
               <hr className="text-[#9f9f9f] mt-6" />
             </div>
@@ -56,13 +52,13 @@ const About = () => {
               <div className="flex max-md:flex-col max-md:p-0 p-2 ">
                 <div className="flex pl-4 max-md:pl-0">
                   <span>Name:</span>
-                  <p className="pl-2 text-[#9f9f9f]">Tushar Sahani</p>
+                  <p className="pl-2 text-[#9f9f9f]">Abhishek Patil</p>
                 </div>
                 <div className="flex pl-40 max-md:pl-0">
                   <span>Email:</span>
                   <p className="pl-2 text-[#009e66] hover:text-[#346b57] cursor-pointer">
                     <a href="mailto:tusharsahani000@gmail.com">
-                      tusharsahani000@gmail.com
+                      AbhiPatil96@protonmail.com
                     </a>
                   </p>
                 </div>
@@ -70,20 +66,20 @@ const About = () => {
               <div className="flex max-md:flex-col  max-md:p-0 p-2">
                 <div className="flex max-md:pl-0 pl-4">
                   <span>Age:</span>
-                  <p className="pl-2 text-[#9f9f9f]">22</p>
+                  <p className="pl-2 text-[#9f9f9f]">26</p>
                 </div>
                 <div className="flex pl-[283px] max-md:pl-0">
                   <span>Live: </span>
-                  <p className="pl-2 text-[#9f9f9f]">Deoria, Uttar Pradesh</p>
+                  <p className="pl-2 text-[#9f9f9f]">Pune , India</p>
                 </div>
               </div>
             </div>
             <div>
-              <button class="mt-2 ml-5 bg-[#009e66] hover:bg-[#0e522b] text-white font-bold py-2 px-4 rounded-full mb-3">
+              {/* <button class="mt-2 ml-5 bg-[#009e66] hover:bg-[#0e522b] text-white font-bold py-2 px-4 rounded-full mb-3">
                 <Link to="https://drive.google.com/drive/folders/1KbXIi0xJ9-uUTEli0MGzvy8C_aC_O-2_?usp=sharing" target="_blank">
-                <DownloadIcon sx={{ fontSize: "20px" }} className="animate-bounce mr-1 text-sm"/> Resume
+                <DownloadIcon sx={{ fontSize: "20px" }} className="animate-bounce mr-1 text-sm"/> Portfolio
                 </Link>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

@@ -29,27 +29,27 @@ const Links = () => {
             <img
               src={about_img}
               className="w-[8.5%] max-md:w-24 rounded-full m-auto"
-              alt="Tushar Sahani"
+              alt="Abhishek Patil"
             />
-            <h1 className="p-3">Tushar Sahani</h1>
+            <h1 className="p-3">Abhishek Patil</h1>
             <p className="text-[#ffffff99] max-md:text-sm">
-              Coding enthusiast and Web Developer
+              Coding enthusiast and Data Engineer
             </p>
           </div>
           <div className="m-auto w-1/2 max-md:w-full p-3">
-            <Link to='https://github.com/Tushar-sahani' target="_blank">
+            <Link to='https://github.com/abhishekp8003' target="_blank">
               <div className="bg-[#222222] flex h-14 p-1 rounded-xl  mt-5 cursor-pointer hover:scale-105 transition ease-out">
               <img src={github} alt="logo" className="w-12 p-1 rounded-lg absolute" />
                 <h1 className="m-auto">GitHub</h1>
               </div>
             </Link>
-            <Link to='https://github.com/Tushar-sahani' target="_blank">
+            <Link to='https://www.linkedin.com/in/abhipatil96/' target="_blank">
               <div className="bg-[#222222] flex h-14 p-1 rounded-xl  mt-5 cursor-pointer hover:scale-105 transition ease-out">
               <img src={linkedin} alt="logo" className="w-12 rounded-lg absolute" />
                 <h1 className="m-auto font-extralight">Linkedin</h1>
               </div>
             </Link>
-            <Link to='https://leetcode.com/u/Tushar_Sahani/' target="_blank">
+            {/* <Link to='https://leetcode.com/u/Tushar_Sahani/' target="_blank">
               <div className="bg-[#222222] flex h-14 p-1 rounded-xl  mt-5 cursor-pointer hover:scale-105 transition ease-out">
                 <img src={leetcode} alt="logo" className="w-12 rounded-lg absolute" />
                 <h1 className="m-auto font-extralight">LeetCode</h1>
@@ -60,7 +60,7 @@ const Links = () => {
                 <img src={hackerrank} alt="logo" className="w-12 rounded-lg absolute" />
                 <h1 className="m-auto font-extralight">HackerRank</h1>
               </div>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

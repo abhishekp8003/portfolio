@@ -4,7 +4,7 @@
 </h2>
 
 <div align="center">
-<img src="https://github.com/abhishekp8003/portfolio/assets/logo.png" alt="Portfolio" width="100%" />
+<img src="https://github.com/abhishekp8003/portfolio/assets/port.png" alt="Portfolio" width="100%" />
 </div>
 <br/>
 

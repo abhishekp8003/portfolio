@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tushar-sahani/portfolio.git"
+    "url": "git+git remote add origin https://github.com/abhishekp8003/portfolio.git"
   },
-  "author": "Tushar Sahani",
+  "author": "Abhishek Patil",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tushar-sahani/portfolio/issues"
+    "url": "https://github.com/abhishekp8003/portfolio/issues"
   },
-  "homepage": "https://github.com/Tushar-sahani/portfolio#readme",
+  "homepage": "https://github.com/abhishekp8003/portfolio#readme",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.1",
